@@ -73,6 +73,6 @@ Labels:
     - human
     - TRANSCRIPTOMIC
 #数据文件元数据信息csv文件的地址（xxx_desc_file.csv），tos地址
-DataFilesURL: s3://gznl-open-data-references/ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna-data_desc_file.csv
+DataFilesURL: s3://sra-pub-src-gznl/datasetsConfig/PRJNA883409-data_desc_file.csv
 #数据样本元数据信息csv文件的地址（xxx_desc_sample.csv），tos地址
-DataFileSamplesURL: null
+DataFileSamplesURL: s3://sra-pub-src-gznl/datasetsConfig/PRJNA883409-data_desc_sample.csv
