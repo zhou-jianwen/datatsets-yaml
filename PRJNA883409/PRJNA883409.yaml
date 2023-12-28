@@ -1,0 +1,78 @@
+#数据集名称
+#规则：由中文、数字、字母、空格、连接符（-、_）、小括号、中括号、“.”、“：”、“，”、“/”、“+”、双引号组成；不能以空格、连接符（-、_）、“：”、“，”、双引号开头；请输入1～200个字符；全局范围内，数据集名称不可以重复
+Name: 'TEQUILA-seq: a versatile and low-cost method for targeted long-read RNA sequencing (human)'
+#数据集描述
+#规则：请输入1～1000个字符，可换行
+Description: 'Long-read RNA sequencing (RNA-seq) is a powerful technology for transcriptome analysis, but the relatively low throughput of current long-read sequencing platforms limits transcript coverage. We present TEQUILA-seq, a versatile, easy-to-implement, and low-cost method for targeted long-read RNA-seq. TEQUILA-seq can be broadly used for targeted sequencing of full-length transcripts in diverse biomedical research settings. Overall design: Targeted long-read sequencing on the Oxford nanopore platform was used to profile full-length transcript isoforms of preselected genes in poly(A)-selected RNA from human brain tissue (Clontech) and SH-SY5Y human neuroblastoma cells, each with three replicates. Targeted long-read sequencing was also used to examine full-length transcript isoforms of 468 actionable cancer genes in poly(A)-selected RNA extracted from 40 breast cancer cell lines (ATCC). '
+#帮助文档链接
+#规则：请提供帮助文档的链接地址（https，http形式）
+Documentation: https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/dna/README
+#联系人，主要是为了用户能获取到关于该数据集的帮助，一般属于数据集所有者团队
+#规则：必须是email地址
+Contact: 'linlan@chop.edu'
+#当前数据集管理者，即在当前平台上该数据的管理者，一般属于平台团队
+#规则：
+ManagedBy: bio2s[Bio-OS]
+#数据集所有者，一般指数据集所有者团队或个人，与平台无关
+#规则：所有者可以是1～6个，由中文、数字、字母、空格、连接符（-、_）、“.”、小括号组成，请输入1～200个字符（所有所有者的总字符长度）；不能以空格、连接符（-、_）开头（指每个所有者的开头），当所有者有多个时，使用“，”分割
+Owner: ncbi
+#数据集所遵守的许可/使用条款等
+#规则：提供文字或链接
+License: null
+#数据集所属领域
+#规则：五选一，内容范围---组学基础研究，农业 ，医疗 ，工业，环境 ，进化（目前未限定在这6种）
+Relevance: 组学基础研究
+#数据集所属编目，当数据集收集的数据类型不只是组学数据时，使用该字段进行分类，同时，目前mc-数据集中指展示该字段为“组学数据”的数据集
+#规则：类目有限定，参看下方文档中的“编目内容”
+Catalogue：OMICSDATA_SRA
+#数据集的创建时间，注意不是在该平台上创建的时间，而是该数据集实际的建立时间
+#规则：时间格式为，年-月-日，时间不能超过当前日期
+CreateDate: 2022-09-22
+#数据集的更新时间，注意不是在该平台上创建的时间，而是该数据集实际的更新时间
+#规则：时间格式为，年-月-日，时间不能超过当前日期
+UpdateDate: 2023-06-07
+ProjectType:
+#项目数据类型
+#规则：目前提供17项，可以多选，链接见下方文档中的“Project data type”
+  ProjectDataTypes:
+  - EXOME
+#样本范围
+#规则：在提供的选项中单选，见下方文档中的“Sample scope”
+  SampleScope: Multisolate
+Other:
+#外部链接，该数据集自己的门户网站
+#规则：https等链接形式
+  ExternalLink: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA883409
+#外部链接描述，对上述“外部链接”的说明
+#规则：请输入1～1000个字符，不支持换行
+  ExternalLinks_description: 'Long-read RNA sequencing (RNA-seq) is a powerful technology for transcriptome analysis, but the relatively low throughput of current long-read sequencing platforms limits transcript coverage. We present TEQUILA-seq, a versatile, easy-to-implement, and low-cost method for targeted long-read RNA-seq. TEQUILA-seq can be broadly used for targeted sequencing of full-length transcripts in diverse biomedical research settings. Overall design: Targeted long-read sequencing on the Oxford nanopore platform was used to profile full-length transcript isoforms of preselected genes in poly(A)-selected RNA from human brain tissue (Clontech) and SH-SY5Y human neuroblastoma cells, each with three replicates. Targeted long-read sequencing was also used to examine full-length transcript isoforms of 468 actionable cancer genes in poly(A)-selected RNA extracted from 40 breast cancer cell lines (ATCC). '
+#示例教程，如该数据集的使用视频链接等
+#规则：https等链接形式
+  Tutorial: null
+#工具/应用，与该数据集相关的工具/应用链接或罗列
+#规则：可填写链接地址或文字信息，如果是文字：由中文、数字、字母、空格、连接符（-、_）组成组成，1～1000个字符
+  Tools&applications: null
+#以下是出版物信息，内容填写在子字段中，即“Publications”后不填信息，每一篇文章为一组信息，包含title，URL，Authors，Citation 4项。
+Publications:
+#发表文章的题目
+#规则：1～300个字符
+  - Title: 'TEQUILA-seq: a versatile and low-cost method for targeted long-read RNA sequencing.'
+#发表文章的在线链接
+#规则：链接地址
+    URL: null
+#发表文章的作者，可多个
+#规则：每个作者1～100个字符，由中文、数字、字母、空格、连接符（-、_）、“.”、小括号组成，不能以空格、连接符（-、_）开头（指每个所有者的开头）
+    Authors:
+      - null
+#发表文章的引用信息
+#规则：不设限
+    Citation: 'Wang F, Xu Y, Wang R, Zhang B, Smith N, Notaro A, Gaerlan S, Kutschera E, Kadash-Edmondson KE, Xing Y, Lin L. TEQUILA-seq: a versatile and low-cost method for targeted long-read RNA sequencing. Nat Commun. 2023 Aug 8;14(1):4760. doi: 10.1038/s41467-023-40083-6. PMID: 37553321; PMCID: PMC10409798.'
+#数据集的其他标签
+#规则：由中文、数字、字母、空格、连接符（-、_）、“.”组成，不能以空格、连接符（-、_）开头；最多可以添加6个；每个标签1-30个字符
+Labels:
+    - human
+    - TRANSCRIPTOMIC
+#数据文件元数据信息csv文件的地址（xxx_desc_file.csv），tos地址
+DataFilesURL: s3://gznl-open-data-references/ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna-data_desc_file.csv
+#数据样本元数据信息csv文件的地址（xxx_desc_sample.csv），tos地址
+DataFileSamplesURL: null
